@@ -1,35 +1,35 @@
 {
-  "name": "axonpminstaller",
-  "version": "0.0.0",
-  "repository": "https://github.com/axodotdev/cargo-dist/",
-  "preferUnplugged": true,
-  "artifactDownloadUrl": "",
-  "glibcMinimum": {
-    "major": 2,
-    "series": 31
-  },
-  "supportedPlatforms": {},
-  "scripts": {
-    "postinstall": "node ./install.js",
-    "fmt": "prettier --write **/*.js",
-    "fmt:check": "prettier --check **/*.js"
-  },
-  "engines": {
-    "node": ">=14",
-    "npm": ">=6"
-  },
-  "volta": {
-    "node": "18.14.1",
-    "npm": "9.5.0"
-  },
-  "dependencies": {
-    "axios": "^1.11.0",
-    "axios-proxy-builder": "^0.1.2",
-    "console.table": "^0.10.0",
-    "detect-libc": "^2.0.4",
-    "rimraf": "^6.0.1"
-  },
-  "devDependencies": {
-    "prettier": "^3.6.2"
-  }
+    "name": "axonpminstaller",
+    "version": "0.0.0",
+    "repository": "https://github.com/jacobtread/cargo-dist/",
+    "preferUnplugged": true,
+    "artifactDownloadUrl": "",
+    "glibcMinimum": {
+        "major": 2,
+        "series": 31
+    },
+    "supportedPlatforms": {},
+    "scripts": {
+        "postinstall": "node ./install.js",
+        "fmt": "prettier --write **/*.js",
+        "fmt:check": "prettier --check **/*.js"
+    },
+    "engines": {
+        "node": ">=14",
+        "npm": ">=6"
+    },
+    "volta": {
+        "node": "18.14.1",
+        "npm": "9.5.0"
+    },
+    "dependencies": {
+        "axios": "^1.11.0",
+        "axios-proxy-builder": "^0.1.2",
+        "console.table": "^0.10.0",
+        "detect-libc": "^2.0.4",
+        "rimraf": "^6.0.1"
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
 }

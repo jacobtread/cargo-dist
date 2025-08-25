@@ -4,15 +4,15 @@ members = ["cargo:."]
 # Config for 'dist'
 [dist]
 # The preferred dist version to use in CI (Cargo.toml SemVer syntax)
-cargo-dist-version = "0.28.2-prerelease.2"
+cargo-dist-version = "1.0.0-rc.1"
 # CI backends to support
 ci = "github"
 # The installers to generate for each app
 installers = ["shell", "powershell", "npm", "homebrew"]
 # A GitHub repo to push Homebrew formulas to
-tap = "axodotdev/homebrew-tap"
+tap = "jacobtread/homebrew-tap"
 # A namespace to use when publishing this package to the npm registry
-npm-scope = "@axodotdev"
+npm-scope = "@jacobtread"
 # Publish jobs to run in CI
 publish-jobs = ["homebrew", "npm", "./publish-crates"]
 # Target platforms to build apps for (Rust target-triple syntax)
